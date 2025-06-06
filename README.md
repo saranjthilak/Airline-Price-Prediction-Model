@@ -1,14 +1,47 @@
-# Airline-Price-Prediction-Model using Machine Learning Algorithms
-To Predict ticket price for upcoming flights which helps in selecting the optimum time for travel and the cheapest flight to the desired destination
+# ✈️ Flight Price Prediction Model
 
-Methodology
+A machine learning project to predict airline ticket prices based on flight details.  
+This project demonstrates a full data science workflow, from data preprocessing to feature engineering, model training, evaluation, and visualization.
 
-  Regression techniques: Regression techniques consist of finding a mathematical relationship between measurements of two variables y and x, such that the value of variable y can be predicted from a measurement of the other variable x.
+---
 
+## 📌 Project Overview
 
-![image](https://user-images.githubusercontent.com/94320118/221625824-aa200a55-dd78-4cd1-958c-b0998f75e245.png)
+In this notebook, we perform:
 
-![image](https://user-images.githubusercontent.com/94320118/221626218-537ac943-a313-4c4d-9001-50f30735c690.png)
+✅ Data cleaning and preprocessing  
+✅ Feature extraction and encoding  
+✅ Exploratory Data Analysis (EDA)  
+✅ Model training with multiple regressors (Linear Regression, Random Forest, etc.)  
+✅ Model evaluation and performance comparison  
+✅ Insights and recommendations based on model outputs
 
+---
 
+## 📊 Dataset
 
+**Kaggle:** flights.csv file  
+The dataset includes the following columns:
+
+- Date_of_Journey  
+- Airline  
+- Source  
+- Destination  
+- Dep_Time  
+- Arrival_Time  
+- Duration  
+- Total_Stops  
+- Additional_Info  
+- Price (target variable)
+
+👉 Make sure to place your dataset at `data/flights.csv` or update the path in the notebook accordingly.
+
+---
+
+## 🛠️ Installation
+
+### Clone this repository:
+
+```bash
+git clone https://github.com/saranjthilak/Airline-Price-Prediction-Model.git
+cd Airline-Price-Prediction-Model
